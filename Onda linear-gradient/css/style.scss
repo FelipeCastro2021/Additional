@@ -1,0 +1,43 @@
+$background: #bd4f6c;
+$blue: #688288;
+
+$rosa-light: #ffa69e;
+$roxo: #861657;
+
+#wave {
+    position: relative;
+    height: 70px;
+    width: 600px;
+    background: $background;
+    background-image: linear-gradient(326deg, $roxo 0%, $rosa-light 74%);
+
+    
+
+  &::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    right: -5px;
+    top: 40px;
+
+    border-radius: 100% 50%;
+    width: 340px;
+    height: 80px;
+
+    background-color: white;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 306px;
+    height: 70px;
+    background-color: $background;
+    background-image: linear-gradient(325deg, #bf5a79 0%, $rosa-light 65%);
+    left: 0;
+    top: 27px;
+  }
+}

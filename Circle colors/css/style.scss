@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div.circle {
+        width: 150px;
+        height: 150px;
+        
+        border-radius: 50%;
+
+        border: 10px solid purple;
+
+        animation: circle 2.5s ease-in-out infinite;
+    }
+}
+
+@keyframes circle {
+    0% {
+        border-color: blue;
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(0.8);
+        border-color: green;
+    }
+
+    50% {
+        transform: scale(1.15);
+        border-color: yellow;
+    }
+
+    75% {
+        border-color: red;
+        transform: scale(0.7);
+    }
+
+    100% {
+        border-color: purple;
+        transform: scale(1);
+    }
+}

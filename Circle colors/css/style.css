@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid purple;
+  -webkit-animation: circle 2.5s ease-in-out infinite;
+          animation: circle 2.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    border-color: blue;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    border-color: green;
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    border-color: yellow;
+  }
+  75% {
+    border-color: red;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100% {
+    border-color: purple;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes circle {
+  0% {
+    border-color: blue;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    border-color: green;
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    border-color: yellow;
+  }
+  75% {
+    border-color: red;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  100% {
+    border-color: purple;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+#wave {
+  position: relative;
+  height: 70px;
+  width: 600px;
+  background: #bd4f6c;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+
+#wave::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 340px;
+  height: 80px;
+  background-color: white;
+  right: -5px;
+  top: 40px;
+}
+
+#wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 306px;
+  height: 70px;
+  background-color: #bd4f6c;
+  background-image: linear-gradient(325deg, #bf5a79 0%, #ffa69e 65%);
+  left: 0;
+  top: 27px;
+}
+/*# sourceMappingURL=style.css.map */
