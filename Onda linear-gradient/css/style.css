@@ -10,12 +10,12 @@
   content: "";
   display: block;
   position: absolute;
+  right: -5px;
+  top: 40px;
   border-radius: 100% 50%;
   width: 340px;
   height: 80px;
   background-color: white;
-  right: -5px;
-  top: 40px;
 }
 
 #wave::after {
