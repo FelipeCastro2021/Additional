@@ -1,20 +1,32 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
     height: 100vh;
+
+    body {
+    height: 100%;
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    div.circle {
-        width: 150px;
-        height: 150px;
-        
-        border-radius: 50%;
+        div.circle {
+            width: 150px;
+            height: 150px;
+            
+            border-radius: 50%;
 
-        border: 10px solid purple;
+            border: 10px solid purple;
 
-        animation: circle 2.5s ease-in-out infinite;
+            animation: circle 2.5s ease-in-out infinite;
+        }
     }
 }
 
