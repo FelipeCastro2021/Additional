@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0 15px 15px;
+    cursor: pointer;
+}
+
+#menu span {
+    margin-bottom: 6px;
+    background-color: gray;
+    width: 50px;
+    height: 3px;
+}
